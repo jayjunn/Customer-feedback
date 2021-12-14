@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Customer Feedback Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this task, I have used React, Typescript, Jest, and React Testing Library.
 
-## Available Scripts
+# **Design**
+<img src="https://user-images.githubusercontent.com/62832553/145941724-7fd7e431-6897-41e6-bc50-4544515ece00.png" alt="screenshot" width="900"/>
 
-In the project directory, you can run:
+- For the user interface, the review form is hidden on the initial page load, when the 'write a review' CTA button gets clicked the form section is rendered below the header. 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Set button color according to page status to lead natural attention to important CTA buttons.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- A donut chart and total number of reviews are indicated on the Dashboard section
 
-### `yarn test`
+- All the comments are rendered in the latest order
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# **How to start**
 
-### `yarn build`
+To run the app, please install all necessary Node modules first then run the server and the client, to do so, run the following command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+ yarn install 
+ yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Client** should be running at http://localhost:3000/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# **Testing**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run tests, please run the following command
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+ yarn test
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# **What’s left to improve**
+ - Add filter for the review list which allows users can see specific reviews such as filter reviews only with 1 star
+ 
+ - Make review saved notification disappeared after a few sec to increase the visibility of the page. 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ 
