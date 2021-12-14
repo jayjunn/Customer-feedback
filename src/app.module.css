@@ -1,0 +1,24 @@
+.app {
+  max-width: 40rem;
+  margin-top: 30px;
+}
+
+.graph_container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  height: 180px;
+}
+
+.save_success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #3a71ff; */
+  outline: 1px solid #3a71ff;
+  height: 80px;
+  color: #3a71ff;
+}
+.save_fail {
+  display: none;
+}

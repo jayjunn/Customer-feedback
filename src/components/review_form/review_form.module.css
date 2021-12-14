@@ -1,0 +1,77 @@
+input {
+  margin-top: 8px;
+  height: 34px;
+  width: 98%;
+  border: 1px solid lightgray;
+  transition: 0.3s all;
+  padding: 1%;
+  color: #202020;
+}
+input:focus {
+  outline: 2px solid #4d7efc;
+}
+
+input:hover {
+  background-color: rgba(241, 241, 241, 0.45);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+input.text {
+  color: blueviolet;
+}
+button {
+  border: none;
+  background-color: white;
+  width: 220px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.formHide {
+  display: none;
+}
+.label {
+  font-size: 16px;
+}
+
+.container {
+  /* background-color: tomato; */
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.input_name {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+.input_first_name {
+  width: 47.5%;
+  margin-right: 4px;
+}
+
+.input_last_name {
+  width: 47.5%;
+  margin-left: 4px;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.cancelBtn {
+  border: 1px solid lightgray;
+  color: rgb(119, 119, 119);
+  margin-right: 20px;
+}
+
+.submitBtn {
+  background-color: #3a71ff;
+  color: white;
+  margin-left: 20px;
+}
+.error_text {
+  color: tomato;
+  font-size: 12px;
+}

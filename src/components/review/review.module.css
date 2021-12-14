@@ -1,0 +1,17 @@
+.review_card {
+  margin-bottom: 20px;
+}
+
+.review_head {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.star_rating {
+  margin-top: 10px;
+  color: rgb(240, 196, 53);
+}
+
+.comment {
+  margin-top: 10px;
+}

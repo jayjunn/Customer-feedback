@@ -1,0 +1,28 @@
+.chartContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 100%;
+}
+
+.totalNumber {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+  /* background-color: violet; */
+}
+
+.chart {
+  /* background-color: wheat; */
+  width: 50%;
+}
+
+.copy {
+  margin-top: 40px;
+}
+
+.number {
+  margin: 0px;
+}
