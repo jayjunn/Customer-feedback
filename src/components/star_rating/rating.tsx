@@ -28,6 +28,7 @@ const StarRating = (props: StarRatingProps) => {
             <input
               type="radio"
               name="rating"
+              //   data-testid={`${ratingValue}start`}
               className={styles.radioBtn}
               value={ratingValue}
               onClick={() => props.setRating(ratingValue)}
@@ -38,6 +39,7 @@ const StarRating = (props: StarRatingProps) => {
               color={
                 ratingValue <= (hover || props.rating) ? '#F0C435' : '#F0F0F0'
               }
+              data-testid={`${ratingValue}start`}
               onMouseEnter={() => setHover(ratingValue)}
               onMouseLeave={() => setHover(0)}
             />

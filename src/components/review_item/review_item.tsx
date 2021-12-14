@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './review.module.css';
+import styles from './review_item.module.css';
 import { FaStar } from 'react-icons/fa';
 type ReviewProps = {
   firstName?: string;
@@ -30,17 +30,17 @@ const Review = (props: ReviewProps) => {
 
   return (
     <>
-      <div className={styles.review_card}>
-        <div className={styles.review_head}>
-          <div className={styles.star_rating}>
-            {showStarts(props.rating).map((item, idx) => {
-              return <FaStar key={idx}></FaStar>;
-            })}
-          </div>
-          <div>{`${props.firstName} ${props.lastName} | ${props?.timeStamp}`}</div>
+      <li className={styles.container}>
+        <div className={styles.star_rating}>
+          {showStarts(props.rating).map((item, idx) => {
+            return <FaStar key={idx}></FaStar>;
+          })}
         </div>
-        <div className={styles.comment}>{props.comment}</div>
-      </div>
+        <h5
+          className={styles.name_date}
+        >{`${props.firstName} ${props.lastName} | ${props?.timeStamp}`}</h5>
+        <span className={styles.comment}>{props.comment}</span>
+      </li>
     </>
   );
 };

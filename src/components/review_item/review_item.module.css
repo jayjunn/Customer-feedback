@@ -1,17 +1,16 @@
-.review_card {
+.container {
   margin-bottom: 20px;
-}
-
-.review_head {
-  font-size: 14px;
-  font-weight: bold;
+  list-style: none;
 }
 
 .star_rating {
   margin-top: 10px;
   color: rgb(240, 196, 53);
 }
-
+.name_date {
+  margin: 0.1rem;
+  font-weight: bold;
+}
 .comment {
   margin-top: 10px;
 }

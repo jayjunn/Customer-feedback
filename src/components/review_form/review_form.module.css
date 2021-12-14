@@ -65,11 +65,18 @@ button {
   color: rgb(119, 119, 119);
   margin-right: 20px;
 }
+.cancelBtn:hover {
+  color: rgb(92, 92, 92);
+  border: 1px solid rgb(150, 149, 149);
+}
 
 .submitBtn {
   background-color: #3a71ff;
   color: white;
   margin-left: 20px;
+}
+.submitBtn:hover {
+  background-color: #2259e4;
 }
 .error_text {
   color: tomato;

@@ -82,12 +82,11 @@ const BarChart = (props: BarChartProps) => {
     ],
   };
   return (
-    <div className={styles.chartContainer}>
+    <>
       <div className={styles.totalNumber}>
         <h4 className={styles.copy}>Total review</h4>
         <h4 className={styles.number}>{props.totalReview}</h4>
       </div>
-
       <div className={styles.chart}>
         <Doughnut
           data={data}
@@ -96,7 +95,7 @@ const BarChart = (props: BarChartProps) => {
           }}
         />
       </div>
-    </div>
+    </>
   );
 };
 

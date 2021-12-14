@@ -58,7 +58,7 @@ const ReviewForm = (props: ReviewFormProps) => {
           <input
             type="text"
             name="email"
-            placeholder="Enter email here."
+            placeholder="Enter your email here."
             className={styles.input}
             onChange={props.onChange}
           />

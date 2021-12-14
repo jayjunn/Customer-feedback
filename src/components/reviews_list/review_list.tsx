@@ -1,6 +1,6 @@
 import React from 'react';
-import Review from '../review/review';
-import styles from './reviews.module.css';
+import Review from '../review_item/review_item';
+import styles from './review_list.module.css';
 
 type ReviewListProps = {
   reviewList: {
@@ -15,7 +15,7 @@ type ReviewListProps = {
   }[];
 };
 
-const Reviews = (props: ReviewListProps) => {
+const ReviewList = (props: ReviewListProps) => {
   return (
     <>
       <h4>See all reviews</h4>
@@ -35,4 +35,4 @@ const Reviews = (props: ReviewListProps) => {
   );
 };
 
-export default Reviews;
+export default ReviewList;

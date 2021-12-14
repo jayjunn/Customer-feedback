@@ -1,5 +1,6 @@
-.chartContainer {
+.dashboardBox {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   background-color: #f0f0f0;
   padding: 20px;
@@ -11,11 +12,9 @@
   flex-direction: column;
   margin: 0px;
   align-items: center;
-  /* background-color: violet; */
 }
 
 .chart {
-  /* background-color: wheat; */
   width: 50%;
 }
 

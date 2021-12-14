@@ -17,7 +17,7 @@ export const mockup = [
     comment:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis esse eaque delectus sapiente magnam id.',
     rating: 3,
-    timeStamp: '1/1/2020',
+    timeStamp: '2/4/2020',
   },
   {
     id: 2,
@@ -27,6 +27,6 @@ export const mockup = [
     comment:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis esse eaque delectus sapiente magnam id.',
     rating: 1,
-    timeStamp: '7/1/2020',
+    timeStamp: '1/1/2020',
   },
 ];

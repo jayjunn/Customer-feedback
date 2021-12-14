@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import styles from './app.module.css';
 import BarChart from './components/chart/chart';
 import ReviewForm from './components/review_form/review_form';
-import Reviews from './components/reviews/reviews';
-import Header from './components/review_header/review_header';
+import Reviews from './components/reviews_list/review_list';
+import Header from './components/header/header';
 import { mockup } from './mockupData';
 
 function App() {
@@ -96,21 +96,23 @@ function App() {
         </h3>
       )}
 
-      <ReviewForm
-        formValue={formValue}
-        onChange={onChange}
-        onCancel={onCancel}
-        onSubmit={onSubmit}
-        onClick={onClick}
-        formIsHidden={formIsHidden}
-        rating={rating}
-        setRating={setRating}
-        submitted={submitted}
-        valid={valid}
-      />
-      <div className={styles.graph_container}>
+      {!formIsHidden && (
+        <ReviewForm
+          formValue={formValue}
+          onChange={onChange}
+          onCancel={onCancel}
+          onSubmit={onSubmit}
+          onClick={onClick}
+          formIsHidden={formIsHidden}
+          rating={rating}
+          setRating={setRating}
+          submitted={submitted}
+          valid={valid}
+        />
+      )}
+      <section className={styles.dashboard}>
         <BarChart totalReview={reviewList.length} reviewList={reviewList} />
-      </div>
+      </section>
       <Reviews reviewList={reviewList} />
     </div>
   );

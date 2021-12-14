@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './review_header.module.css';
+import styles from './header.module.css';
 
 type HeaderProps = {
-  onClick: React.MouseEventHandler<HTMLButtonElement>
+  onClick: React.MouseEventHandler<HTMLButtonElement>;
   formIsHidden: boolean;
 };
 
