@@ -17,7 +17,7 @@ type ReviewListProps = {
 
 const ReviewList = (props: ReviewListProps) => {
   return (
-    <>
+    <div className={styles.review_box}>
       <h4>See all reviews</h4>
       <ul className={styles.review_list}>
         {props.reviewList.map((item) => (
@@ -31,7 +31,7 @@ const ReviewList = (props: ReviewListProps) => {
           />
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 

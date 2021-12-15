@@ -1,27 +1,19 @@
-.dashboardBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #f0f0f0;
-  padding: 20px;
-  width: 100%;
+h4 {
+  margin: 0;
 }
 
 .totalNumber {
   display: flex;
   flex-direction: column;
-  margin: 0px;
   align-items: center;
+  justify-content: center;
+  margin-left: 60px;
 }
 
 .chart {
   width: 50%;
 }
 
-.copy {
-  margin-top: 40px;
-}
-
 .number {
-  margin: 0px;
+  margin-top: 16px;
 }
