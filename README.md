@@ -1,6 +1,3 @@
-# Customer Feedback Page
-
-For this task, I have used React, Typescript, Jest, and React Testing Library.
 
 # **Design**
 <img src="https://user-images.githubusercontent.com/62832553/145941724-7fd7e431-6897-41e6-bc50-4544515ece00.png" alt="screenshot" width="900"/>
